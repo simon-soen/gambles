@@ -1,0 +1,27 @@
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item.active {
+    transform: translateX(0);
+  }
+  
+  button {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
